@@ -1,0 +1,11 @@
+[package]
+name = "sui_warriors"
+edition = "2024.beta"         # edition = "legacy" to use legacy (pre-2024) Move
+# license = ""           # e.g., "MIT", "GPL", "Apache 2.0"
+# authors = ["..."]      # e.g., ["Joe Smith (joesmith@noemail.com)", "John Snow (johnsnow@noemail.com)"]
+
+[dependencies]
+#Sui = { git = "https://github.com/MystenLabs/sui.git", subdir = "crates/sui-framework/packages/sui-framework", rev = "testnet" }
+
+[addresses]
+sui_warriors="0x07dba0b962c8a1c6469be4c1a2bbeba9b441b2b5bbdf9c927ff8226f72a4e35a"
